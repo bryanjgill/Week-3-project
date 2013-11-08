@@ -1,0 +1,163 @@
+/* ----- Background ----- */
+body {
+	background-attachment: fixed;
+	background-color: black;
+	background-image: none;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+/* -------- Headings -------- */
+h1 {
+	text-align: center;
+	color: white;
+	text-shadow: 5px 5px 5px white;
+}
+h2 {
+	text-align: center;
+	color: gray;
+	text-shadow: 5px 5px 5px gray;
+}
+h3 {
+	text-align: center;
+	color: white;
+	text-shadow: 5px 5px 5px white;
+}
+h4 {
+	text-align: center;
+	color: gray;
+	text-shadow: 5px 5px 5px gray;
+}
+
+/* ------- Navigation ------- */
+nav ol {
+	list-style-type: none;
+	width: 300px;
+	margin: 0 auto;
+	background: black;
+	padding: 0;
+	overflow: hidden;
+}
+nav li {
+	width: 100px;
+	background: white;
+	float: left;
+}
+nav a {
+	color: black;
+	text-decoration: none;
+	background: white;
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;	
+}
+nav a:hover {
+	color: white;
+	background: black;
+}
+div a {
+	margin: 25px;
+	text-align: center;
+	color: gray;
+}
+div a:hover {
+	color: white;
+}
+#totop1 {
+	margin: 25px;
+	text-align: center;
+	color: gray;
+	text-decoration: none;
+}
+#totop2 {
+	margin: 25px;
+	text-align: center;
+	color: gray;
+	text-decoration: none;
+}
+
+/* ------- Image ------ */
+#main-image {
+	display: block;
+	margin: 0 auto;
+	border: 5px solid white;
+	overflow: hidden;
+	-moz-box-shadow: 5px 5px 5px gray;
+	-webkit-box-shadow: 5px 5px 5px gray;
+	box-shadow: 5px 5px 5px gray;
+}
+
+/* ------ Gallery ----- */
+ul {
+	border: 1px solid white;
+	list-style-type: none;
+	width: 500px;
+	margin: 25px auto;
+	overflow: hidden;
+	padding: 5px;
+}
+ul li {
+	float: left;
+	margin: 20px;
+}
+ul li a {
+	border: 5px solid white;
+	display: block;
+	height: 130px;
+	width: 200px;
+	outline: 0;
+	-moz-box-shadow: 5px 5px 5px gray;
+	-webkit-box-shadow: 5px 5px 5px gray;
+	box-shadow: 5px 5px 5px gray;
+}
+ul li a:visited {
+	border-color: white;
+	}
+ul li a:hover {
+	border-color: grey;
+}
+ul li a:active {
+	border-color: blue;
+}
+	
+/* ---- Paragraphs ---- */
+p {
+	text-align: left;
+	width: 800px;
+	margin: 25px auto;
+	font size: 12px;
+	color: gray;
+	-moz-column-count: 2;
+	-moz-column-gap: 25px;
+}
+
+/* --- Ordered List --- */
+div ol {
+	display: block;
+	width: 120px;
+	margin: 0 auto;
+}
+ol li {
+	font size: 12px;
+	color: gray;
+}
+
+/* ---- Contact-Div ---- */
+#contact-div {
+	font size: 12px;
+	text-align: center;
+	color: black;
+	border: 5px solid white;
+	display: block;
+	width: 400px;
+	height: 400px;
+	background-color: gray;
+	margin: 0 auto;
+}
+
+/* ----- Footer -----*/
+#footer {
+	margin: 0 auto;
+	width: 10%;
+}
